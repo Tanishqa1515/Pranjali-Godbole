@@ -7,7 +7,7 @@ body {
     background-size: cover;
 }
 nav ul {
-    background-color: yellow;
+    background-color: #fcf951;
     border-radius: 0px 10px 10px 0px;
     width: 50%;
     padding: 20px;
@@ -34,7 +34,7 @@ nav ul li a {
 nav ul li ul {
     display: none;
     position: absolute;
-    background-color: yellow;
+    background-color: #fcf951;
     padding: 7px;
     border-radius: 0px 0px 10px 10px;
     width: 180px;
