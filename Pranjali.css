@@ -14,7 +14,7 @@ nav ul {
 }
 nav a {
     margin: 0 15px;
-    color: rgb(11, 11, 100);
+    color: #5154FC;
     font-size: 18px;
 }
 
@@ -50,7 +50,7 @@ nav ul li ul li a {
 }
 
 nav ul li ul li a:hover {
-   background-color: darkgoldenrod;
+   background-color: #F1ED29;
 }
 
 
