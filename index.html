@@ -77,7 +77,8 @@
     <br><br><br>
 
     <section id="contactme">
-     <form action="" method="post">
+     <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="e2f970e0-d8d2-4384-9c25-b15cfb8b9a0b">
         <h2>Get in touch with me!</h2>
         <br><br>
         <a href="tel:+91 8700991586">+91-8700991586</a>
@@ -86,16 +87,20 @@
         <h3>⋅⋆ ─── or email me to get in touch! ─── ⋆⋅</h3>
         <br><br><br>
         <label for="name">Your name</label><br>
-        <input type="text" placeholder="your name here.." required>
+        <input type="text" placeholder="your name here.." name="client name" required>
         <br><br>
         <label for="your-mail-id">Your email-id</label><br>
-        <input type="email" required>
+        <input type="email" name="client email-id" required>
         <br><br>
         <label for="message">Message / reason of contact </label><br>
-        <textarea placeholder="Type in your message here..." rows="7" cols="42"></textarea>
+        <textarea name="message" placeholder="Type in your message here..." rows="7" cols="42"></textarea>
         <br><br>
-        <input type="submit" value="Submit!">
+        
+        <input type="submit" value="Submit!" />
+          
+
      </form>
+     
     </section>
 </body>
 </html>
