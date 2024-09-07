@@ -57,3 +57,15 @@ nav ul li ul li a:hover {
     text-align: center;
     border-style: dotted;
 }
+#submit {
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #5646a2;
+    color: #f8f0e8;
+}
+#submit:hover {
+    background-color: #f8f0e8;
+    color: #5646a2;
+}
+
+
